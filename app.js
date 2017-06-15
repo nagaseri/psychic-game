@@ -2,7 +2,7 @@
 
 	var wins = 0;
 	var losses = 0;
-	var guessesLeft = 3;
+	var guessesLeft = 10;
 	var wrongGuesses = [];
 	var computerChoice = "";
 	var userChoice = "";
@@ -18,7 +18,7 @@
 
 // function to reset game	
 	function gameReset(){
-		guessesLeft = 3;
+		guessesLeft = 10;
 		wrongGuesses = [];
 		computerMakesChoice();
 	}
